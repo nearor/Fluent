@@ -1,0 +1,14 @@
+# 构建产物
+.build/
+*.app/
+*.dmg
+*.zip
+
+# 生成的预览图（由 tools/make-icon.swift 生成）
+Resources/preview.png
+
+# 系统 / 编辑器
+.DS_Store
+.swiftpm/
+.vscode/
+xcuserdata/
