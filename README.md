@@ -1,5 +1,9 @@
 # Fluent
 
+<p align="center">
+  <img src="Resources/AppIcon.iconset/icon_256x256.png" width="128" alt="Fluent" />
+</p>
+
 > 一个 macOS 菜单栏小工具：在任意输入框里 **AI 翻译** + **剪贴板历史**。
 > A lightweight macOS menu bar app: inline **AI translation** in any text field, plus **clipboard history**.
 
@@ -50,6 +54,10 @@
 - 全局监听用 `CGEventTap`（keyDown + flagsChanged，后者支持修饰键连击）。
 - 取字/回填走「辅助功能 API + 剪贴板模拟」双路径。
 - 图标由 `tools/make-icon.swift` 生成。
+
+## 截图
+
+把截图放到 `docs/screenshots/` 下后即可在此显示（`settings.png` / `clipboard.png`）。
 
 ## License
 
